@@ -8,12 +8,12 @@
   <link href='/style.css' rel='stylesheet'>
   <script defer type="text/javascript" src="/main.js"></script>
 </head>
-<body>
+<body class="bg-[#0d1117]">
   
 
   
   <nav class="w-full md:w-full bg-[#010409]">
-    <div class="max-w-screen-xl flex  items-center justify-between  pl-[1px] p-2 bg-[#010409]">
+    <div class=" flex items-center justify-between pl-[1px] p-2 bg-[#010409] w-[100%] md:w-full lg:w-[100%] 2xl:w-[100%]">
       <div id="first-div" class="flex items-center justify-between w-full md:w-auto md:order-2 gap-1">
         <button data-collapse-toggle="navbar-hamburger" type="button" class="inline-flex items-center justify-center p-2 w-10 h-10 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-hamburger" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
@@ -26,7 +26,7 @@
           <h2 class="text-white text-xl font-light md:ml-2 truncate w-20 sm:w-full ">kolaAdetola</h2>
         </div>
       </div>
-      <div id="second-div" class="flex items-end justify-between  md:w-auto md:order-3 bg-green md:items-end md:gap-2 lg:items-end lg:justify-end">
+      <div id="second-div" class="flex items-end justify-between gap-2 md:w-auto md:order-3 bg-green md:items-end md:gap-2 lg:items-end lg:justify-end">
         <div class="">
           <label for="search-bar" class=""></label>
           <div id="search-bar">
@@ -36,9 +36,8 @@
             <input type="search" name="search-bar" id="" class=" w-9 h-9 border bg-[#010409] rounded-lg placeholder-transparent border-[#8D96A0] lg:w-[350px] lg:h-[32px] lg:rounded-lg lg:border lg:border-[#c9d6e6] lg:placeholder:pl-10 lg:placeholder:p-4  lg:placeholder-[#c9d6e6]" placeholder="Type / to search">
           </div>
         </div>
-      </div>
-      <div class="w-9 h-9 rounded-lg  flex items-center justify-center border-[#8D96A0] border"></div>
-      <div class="w-9 h-9 rounded-lg   flex items-center justify-center border-[#8D96A0] border"></div>
+        <div class="w-9 h-9 border bg-[#010409] rounded-lg border-[#8D96A0]"></div>
+        <div class="w-9 h-9 border bg-[#010409] rounded-lg border-[#8D96A0]"></div>
       </div>
       
   
@@ -46,14 +45,67 @@
       
     </div> 
   </nav>
-  <main class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 p-2">
-  <div class="bg-green-100 w-full h-10"></div>
-  <div class="bg-pink-200"></div>
+  <main class=" flex flex-wrap m-4 mt-[30px]  ">
+    <div class="flex items-start justify-start gap-2 w-full">
+      <div class="w-[70px] h-[70px] border rounded-[50%] md:w-[100px] md:h-[100px]"></div>
+      <div class="">
+        <div class="text-[#E6EDF3] text-[25px] font-normal md:text-[30px] ">Kolawole Adetola</div>
+        <div class="text-[#707882] text-[20px] font-normal">KolaAdetola <span class="">.</span> he/him</div>
+      </div>
+    </div>
+    <div class="w-full rounded-md h-8 mt-10 border flex justify-start gap-2 p-1 items-center">
+      <h3 class="">&#128512;</h3>
+      <h3 class="text-[#707882] text-[15px] font-normal">Set status</h3>
+    </div>
+    <button class="w-full rounded-md h-8 mt-2 border bg-[#21262D] text-[#C9D1D4] font-normal">Edit profile</button>
+    <div class="mt-5 w-full h-5 items-center flex gap-2">
+      <img src="res/user.png" alt="" width="20px" height="20px">
+      <div class="items-center justify-start gap-2 text-[#fff] text-[15px] font-semibold ">
+        32 <span class="text-[#707882] text-[12px] font-bold">followers</span>
+      </div>
+      <div class="flex items-center justify-center text-white">.</div>
+      <div class="items-center justify-start gap-2 text-[#fff] text-[15px] font-semibold ">
+        12 <span class="text-[#707882] text-[12px] font-bold">following</span>
+      </div>
+    </div>
+    <div class="w-full mt-[50px] h-6 flex justify-between items-center">
+      <div class="text-white text-[18px] font-normal">Pinned</div>
+      <div class="text-[#397BCF] text-[15px] font-light">Customize your pins</div>
+    </div>
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-2 mt-5 w-full">
+      <div class="w-full h-[90px] rounded-md p-10 border-[#707882] border-[1px]"></div>
+      <div class="w-full h-[90px] rounded-md p-10 border-[#707882] border-[1px]"></div>
+      <div class="w-full h-[90px] rounded-md p-10 border-[#707882] border-[1px]"></div>
+      <div class="w-full h-[90px] rounded-md p-10 border-[#707882] border-[1px]"></div>
+      <div class="w-full h-[90px] rounded-md p-10 border-[#707882] border-[1px]"></div>
+      <div class="w-full h-[90px] rounded-md p-10 border-[#707882] border-[1px]"></div>
+      <!-- <div class="w-full h-10 rounded-md bg-green-800"></div> -->
+    </section>
+ 
+ 
   </main>
-  <footer class=""></footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 </body>
 </html>
- <!-- <div class="w-9 h-9 rounded-lg flex items-center justify-center border-[#8D96A0]"></div> -->
 
 
 
