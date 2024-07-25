@@ -1,8 +1,7 @@
-// Add JS here
-let navbar=document.querySelector("#kola");
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:2244343645.
-addEventListener("click",()=>{
-    navbar.style.backgroundColor="pink";
-})
-console.log(navbar);
 console.log("hello");
+// Suggested code may be subject to a license. Learn more: ~LicenseLog:1375055149.
+let hamburger= document.querySelector("#hamburger");
+console.log(hamburger);
+addEventListener("click", function(){
+    hamburger.style.display = "none";
+});
